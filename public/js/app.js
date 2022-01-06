@@ -1,4 +1,4 @@
-console.log('Javascript CLient loaded')
+// console.log('Javascript CLient loaded')
 
 
 const location_form = document.querySelector('form')

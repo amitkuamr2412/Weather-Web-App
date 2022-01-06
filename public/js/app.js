@@ -8,15 +8,6 @@ const msg2 = document.querySelector('#message2')
 const msg3 = document.querySelector('#message3')
 const msg4 = document.querySelector('#message4')
 
-// msg1.textContent = ''
-// msg2.textContent = ''
-// msg3.textContent = ''
-// msg4.textContent = ''
-
-
-
-
-
 location_form.addEventListener('submit', (e) => {
     const location = search.value ;
     e.preventDefault()

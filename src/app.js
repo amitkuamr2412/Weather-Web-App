@@ -9,6 +9,8 @@ const directorypath = path.join(__dirname,'../public')
 const viewsPath = path.join(__dirname,'../template/views')
 const partPath = path.join(__dirname,'../template/partials')
 
+const port = process.env.PORT || 3000 
+
 app.set('view engine','hbs')
 app.set('views',viewsPath)
 hbs.registerPartials(partPath)
@@ -78,6 +80,6 @@ app.get('*', (req,res) => {
         message: 'Page not found!'
     })
 })
-app.listen(3000, () => {
-    console.log('Server up on port 3000.')
+app.listen(port, () => {
+    console.log('Server up on port ' + port)
 })

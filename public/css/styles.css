@@ -1,8 +1,9 @@
 
 body{
   background-color: rgba(161, 240, 223, 0.267);
+  font-size: larger;
   color: #5a5757;
-  font-family: cursive;
+  font-family: Garamond;
   max-width: 800px;
   margin: 0 auto;
   padding: 0 16px;
@@ -43,6 +44,7 @@ header a{
 .message p{
   /* background-color: cadetblue; */
   color: black;
+  /* font-family: sans-serif; */
 }
 
 input {

@@ -8,4 +8,3 @@ To start with nodemon
 npm run dev
 ```
 
-Deployed to Heroku [link](https://my-weather-webapp.herokuapp.com/)
